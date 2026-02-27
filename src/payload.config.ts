@@ -33,10 +33,16 @@ export default buildConfig({
     'http://127.0.0.1:5500', // Live Server (VS Code)
     'http://localhost:5500', // Live Server alternative
     'http://localhost:3000', // Payload itself
+    'https://raven-swart.vercel.app',
     // add your production domain here later
   ],
 
-  csrf: ['http://127.0.0.1:5500', 'http://localhost:5500', 'http://localhost:3000'],
+  csrf: [
+    'http://127.0.0.1:5500',
+    'http://localhost:5500',
+    'http://localhost:3000',
+    'https://raven-swart.vercel.app',
+  ],
   sharp,
   plugins: [],
 })
