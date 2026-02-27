@@ -34,6 +34,7 @@ export default buildConfig({
     'http://localhost:5500', // Live Server alternative
     'http://localhost:3000', // Payload itself
     'https://raven-swart.vercel.app',
+    'https://raven-security.web.app',
     // add your production domain here later
   ],
 
@@ -42,6 +43,7 @@ export default buildConfig({
     'http://localhost:5500',
     'http://localhost:3000',
     'https://raven-swart.vercel.app',
+    'https://raven-security.web.app',
   ],
   sharp,
   plugins: [],
