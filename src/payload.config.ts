@@ -35,6 +35,8 @@ export default buildConfig({
     'http://localhost:3000', // Payload itself
     'https://raven-swart.vercel.app',
     'https://raven-security.web.app',
+    'https://raven-eight-chi.vercel.app',
+    'https://ravensecuritysolutions.ca',
     // add your production domain here later
   ],
 
@@ -44,6 +46,8 @@ export default buildConfig({
     'http://localhost:3000',
     'https://raven-swart.vercel.app',
     'https://raven-security.web.app',
+    'https://raven-eight-chi.vercel.app',
+    'https://ravensecuritysolutions.ca',
   ],
   sharp,
   plugins: [],
